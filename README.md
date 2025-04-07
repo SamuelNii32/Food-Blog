@@ -1,6 +1,6 @@
 # Food Blog
 
-A simple food blog showcasing Ghanaian recipes. The blog features different food articles with images and descriptions of popular Ghanaian dishes, including Koko & Koose, Waakye, Banku & Tilapia, Jollof Rice, and Ampesi.
+A simple food blog showcasing Ghanaian recipes. The blog features food articles with images and descriptions of popular Ghanaian dishes, including Koko & Koose, Waakye, Banku & Tilapia, Jollof Rice, and Ampesi.
 
 ![Food Blog Screenshot](Images/webpage.png) <!-- Updated to the actual screenshot path -->
 
@@ -24,3 +24,16 @@ A simple food blog showcasing Ghanaian recipes. The blog features different food
 1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/SamuelNii32/Food-Blog.git
+
+2. Open the index.html file in your browser.
+
+## Dish Images
+
+Here are images of the featured Ghanaian dishes:
+
+![Koko & Koose](Images/koks.jpg) 
+![Waakye](Images/wak4.jpeg) 
+![Banku & Tilapia](Images/banks1.jpeg) 
+![Jollof Rice](Images/jof.jpg) 
+![Ampesi](Images/amp3.jpg)
+
