@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Food Blog</title>
+
+    <!-- Link to External CSS File (if you have one) -->
+    <link rel="stylesheet" href="Css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <!-- Add other meta tags, favicon, etc. -->
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <!-- Navigation Section -->
+        <nav>
+          <!-- Navigation Links -->
+          <div class="nav-links">
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="blog.html">BLOG</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+            </ul>
+          </div>
+
+          <!-- Social Media Icons -->
+          <div class="nav-social-icons">
+            <a href="https://facebook.com" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </nav>
+
+        <!-- Image Section with Title-->
+        <div class="header-image-section">
+          <img src="Images/coco.jpg" alt="Food Blog Image" />
+          <!-- Title of the Image -->
+          <div class="nav-image-title">
+            <h2>COCOA POWDER</h2>
+          </div>
+        </div>
+        <!-- Search Form -->
+        <form id="search-form" action="#" method="get">
+          <input
+            type="text"
+            id="search"
+            name="search"
+            placeholder="Search..." />
+          <button type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </header>
+
+      <main class="single-article-container">
+        <!-- Article Section -->
+        <article class="single-article-card">
+          <div class="single-text-info">
+            <div class="single-avatar">
+              <i class="fas fa-user"></i>
+              <!-- Font Awesome User Icon -->
+            </div>
+            <span>Admin</span>
+            <span>February 13, 2025</span>
+          </div>
+
+          <h1 class="single-article-heading">Delicious Waakye</h1>
+
+          <img
+            src="Images/wak4.jpeg"
+            alt="Jollof Rice"
+            class="single-article-image" />
+
+          <div class="single-article-content">
+            <h2>Introduction to Waakye</h2>
+            <p>
+              Waakye is a traditional Ghanaian dish made with rice and beans,
+              often accompanied by a variety of flavorful sides. The dish gets
+              its distinctive dark color from cooking the rice and beans with
+              dried millet leaves, which gives it both its name and unique
+              flavor. Waakye is a beloved comfort food and is commonly enjoyed
+              across Ghana, both as a street food and as a meal for special
+              occasions. It's known for its simplicity yet richness in flavor,
+              making it a perfect combination of carbs and protein.
+            </p>
+
+            <h2>Popular Accompaniments to Waakye</h2>
+            <p>
+              One of the defining features of waakye is the array of delicious
+              accompaniments that are served alongside the rice and beans. It’s
+              commonly paired with fried plantains (kelewele), boiled eggs,
+              spaghetti, and meat such as fried fish, beef, or chicken.
+              Additionally, waakye can also come with a side of shito, a spicy
+              Ghanaian pepper sauce, and a range of vegetables. The variety of
+              sides makes each serving of waakye customizable to individual
+              preferences, offering a satisfying and balanced meal.
+            </p>
+
+            <h2>How to Prepare Waakye</h2>
+            <p>
+              To make waakye, start by cooking your beans (usually black-eyed
+              peas) in water until tender. In a separate pot, prepare the rice
+              by adding washed rice and the beans to a large pot of water. To
+              achieve the signature dark color, add a few dried millet leaves
+              (or dried sorghum leaves) to the pot and let everything cook
+              together for about 30–45 minutes until the rice and beans are
+              fully cooked. Once cooked, strain off the excess water and serve
+              the rice and beans on a plate. Pair with fried plantains, boiled
+              eggs, your choice of protein, and a spicy shito sauce for a truly
+              authentic Ghanaian experience.
+            </p>
+          </div>
+
+          <div class="article-line"></div>
+          <div class="single-article-share">
+            <div class="single-social-icons">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <span class="single-share-text">Quick & Easy</span>
+          </div>
+          <div class="article-line"></div>
+
+          <div class="main-article-stats">
+            <span class="single-views">0 views</span>
+            <span class="single-likes"
+              >16 <i class="fa-regular fa-heart"></i
+            ></span>
+          </div>
+        </article>
+
+        <!-- Recent Posts Section -->
+
+        <div class="single-comment-card">
+          <h2>Comments</h2>
+          <div class="line"></div>
+          <form action="#" method="post" class="comment-box">
+            <!-- Input field -->
+
+            <!-- Left Icons -->
+            <span class="comment-icons">
+              <i class="fa-regular fa-face-smile"></i>
+              <i class="fa-solid fa-camera"></i>
+              <i class="fa-solid fa-gift"></i>
+              <i class="fa-solid fa-video"></i>
+            </span>
+
+            <!-- Right Buttons -->
+            <div class="comment-buttons">
+              <button type="reset" class="btn cancel">Cancel</button>
+              <button type="submit" class="btn post">Publish</button>
+            </div>
+          </form>
+        </div>
+      </main>
+
+      <section class="single-recent-posts">
+        <h2>Recent Posts</h2>
+
+        <a href="koko.html">
+          <div class="single-post-card">
+            <img src="Images/koks.jpg" alt="Banku and Tilapia" />
+            <h3>Koko and Koose</h3>
+            <hr />
+            <div class="single-article-stats">
+              <span class="single-views">0 views</span>
+              <span class="single-likes"
+                >16 <i class="fa-regular fa-heart"></i
+              ></span>
+            </div>
+          </div>
+        </a>
+
+        <a href="banku.html">
+          <div class="single-post-card">
+            <img src="Images/banks1.jpeg" alt="Waakye" />
+            <h3>Banku and Tilapia</h3>
+            <hr />
+            <div class="single-article-stats">
+              <span class="single-views">0 views</span>
+              <span class="single-likes"
+                >16 <i class="fa-regular fa-heart"></i
+              ></span>
+            </div>
+          </div>
+        </a>
+      </section>
+
+      <section id="subscribe">
+        <div class="subscribe-content">
+          <!-- Subscribe Title -->
+          <div class="subscription-header">
+            <h2>Subscribe via Email</h2>
+            <div class="rectangle"></div>
+
+            <!-- Social Media Icons (Horizontal) -->
+            <div class="media-icons">
+              <a href="https://facebook.com" target="_blank">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a href="https://twitter.com" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://instagram.com" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Email Input and Checkbox -->
+          <form action="#" method="post">
+            <p>Enter your email here *</p>
+            <input class="field" type="email" name="email" />
+            <div>
+              <label>
+                <input type="checkbox" name="subscribe-newsletter" />
+                Yes, subscribe me to your newsletter
+              </label>
+            </div>
+
+            <!-- Subscribe Button -->
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Footer Section -->
+      <footer>
+        <p>&copy; 2025 Ghanaian Food Blog. All rights reserved.</p>
+      </footer>
+
+      <!-- Additional content for your pages can go here -->
+    </div>
+  </body>
+</html>

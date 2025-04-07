@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Food Blog</title>
+
+    <!-- Link to External CSS File (if you have one) -->
+    <link rel="stylesheet" href="Css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <!-- Add other meta tags, favicon, etc. -->
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <!-- Navigation Section -->
+        <nav>
+          <!-- Navigation Links -->
+          <div class="nav-links">
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="blog.html">BLOG</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+            </ul>
+          </div>
+
+          <!-- Social Media Icons -->
+          <div class="nav-social-icons">
+            <a href="https://facebook.com" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </nav>
+
+        <!-- Image Section with Title-->
+        <div class="header-image-section">
+          <img src="Images/coco.jpg" alt="Food Blog Image" />
+          <!-- Title of the Image -->
+          <div class="nav-image-title">
+            <h2>COCOA POWDER</h2>
+          </div>
+        </div>
+        <!-- Search Form -->
+        <form id="search-form" action="#" method="get">
+          <input
+            type="text"
+            id="search"
+            name="search"
+            placeholder="Search..." />
+          <button type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </header>
+
+      <main class="single-article-container">
+        <!-- Article Section -->
+        <article class="single-article-card">
+          <div class="single-text-info">
+            <div class="single-avatar">
+              <i class="fas fa-user"></i>
+              <!-- Font Awesome User Icon -->
+            </div>
+            <span>Admin</span>
+            <span>February 13, 2025</span>
+          </div>
+
+          <h1 class="single-article-heading">Delicious Banku and Tilapia</h1>
+
+          <img
+            src="Images/banks1.jpeg"
+            alt="Banku"
+            class="single-article-image" />
+
+          <div class="single-article-content">
+            <h2>Introduction to Banku and Tilapia</h2>
+            <p>
+              Banku and tilapia is a beloved Ghanaian dish that combines the
+              smooth, fermented corn and cassava dough of banku with the
+              flavorful grilled or fried tilapia fish. Banku is a staple food in
+              Ghana, known for its tangy taste and smooth texture, while tilapia
+              is one of the most popular fish varieties in the country. The
+              combination of the two creates a perfect balance of textures and
+              flavors, making it a hearty and satisfying meal enjoyed across
+              Ghana for lunch, dinner, or special occasions.
+            </p>
+
+            <h2>Popular Accompaniments to Banku and Tilapia</h2>
+            <p>
+              Banku and tilapia is often served with a variety of delicious
+              accompaniments to enhance its flavor. The dish is typically paired
+              with spicy shito sauce, a hot pepper sauce that adds depth and
+              heat. It can also be served with a side of tomato-based stew,
+              garden egg stew, or a variety of vegetables. Some people enjoy it
+              with a fresh side of salad or fried plantains to round out the
+              meal, offering a combination of savory, spicy, and fresh elements
+              that complement the main dish perfectly.
+            </p>
+
+            <h2>How to Prepare Banku and Tilapia</h2>
+            <p>
+              To prepare banku, begin by mixing cornmeal and cassava flour with
+              water in a pot over medium heat. Stir constantly until the mixture
+              thickens and becomes smooth. Once it reaches a smooth, dough-like
+              consistency, reduce the heat and continue stirring until it's
+              fully cooked. For the tilapia, season the fish with a mixture of
+              salt, pepper, and spices, then grill or fry it until golden brown
+              and crispy. Serve the banku on a plate alongside the tilapia and
+              pair with shito sauce or your choice of stew. This combination is
+              a satisfying, flavorful, and authentic Ghanaian meal.
+            </p>
+          </div>
+
+          <div class="article-line"></div>
+          <div class="single-article-share">
+            <div class="single-social-icons">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <span class="single-share-text">Quick & Easy</span>
+          </div>
+          <div class="article-line"></div>
+
+          <div class="main-article-stats">
+            <span class="single-views">0 views</span>
+            <span class="single-likes"
+              >16 <i class="fa-regular fa-heart"></i
+            ></span>
+          </div>
+        </article>
+
+        <!-- Recent Posts Section -->
+
+        <div class="single-comment-card">
+          <h2>Comments</h2>
+          <div class="line"></div>
+          <form action="#" method="post" class="comment-box">
+            <!-- Input field -->
+            <textarea
+              placeholder="Write a comment..."
+              class="single-comment-input"></textarea>
+
+            <!-- Left Icons -->
+            <span class="comment-icons">
+              <i class="fa-regular fa-face-smile"></i>
+              <i class="fa-solid fa-camera"></i>
+              <i class="fa-solid fa-gift"></i>
+              <i class="fa-solid fa-video"></i>
+            </span>
+
+            <!-- Right Buttons -->
+            <div class="comment-buttons">
+              <button type="reset" class="btn cancel">Cancel</button>
+              <button type="submit" class="btn post">Publish</button>
+            </div>
+          </form>
+        </div>
+      </main>
+
+      <section class="single-recent-posts">
+        <h2>Recent Posts</h2>
+        <a href="koko.html">
+          <div class="single-post-card">
+            <img src="Images/koks.jpg" alt="Banku and Tilapia" />
+            <h3>Koko and Koose</h3>
+            <hr />
+            <div class="single-article-stats">
+              <span class="single-views">0 views</span>
+              <span class="single-likes"
+                >16 <i class="fa-regular fa-heart"></i
+              ></span>
+            </div>
+          </div>
+        </a>
+
+        <a href="waakye.html">
+          <div class="single-post-card">
+            <img src="Images/wak4.jpeg" alt="Waakye" />
+            <h3>Waakye</h3>
+            <hr />
+            <div class="single-article-stats">
+              <span class="single-views">0 views</span>
+              <span class="single-likes"
+                >16 <i class="fa-regular fa-heart"></i
+              ></span>
+            </div>
+          </div>
+        </a>
+      </section>
+
+      <section id="subscribe">
+        <div class="subscribe-content">
+          <!-- Subscribe Title -->
+          <div class="subscription-header">
+            <h2>Subscribe via Email</h2>
+            <div class="rectangle"></div>
+
+            <!-- Social Media Icons (Horizontal) -->
+            <div class="media-icons">
+              <a href="https://facebook.com" target="_blank">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a href="https://twitter.com" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://instagram.com" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Email Input and Checkbox -->
+          <form action="#" method="post">
+            <p>Enter your email here *</p>
+            <input class="field" type="email" name="email" />
+            <div>
+              <label>
+                <input type="checkbox" name="subscribe-newsletter" />
+                Yes, subscribe me to your newsletter
+              </label>
+            </div>
+
+            <!-- Subscribe Button -->
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Footer Section -->
+      <footer>
+        <p>&copy; 2025 Ghanaian Food Blog. All rights reserved.</p>
+      </footer>
+
+      <!-- Additional content for your pages can go here -->
+    </div>
+  </body>
+</html>

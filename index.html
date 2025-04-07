@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Food Blog</title>
+
+   
+    <!-- Link to External CSS File -->
+    <link rel="stylesheet" href="Css/styles.css">
+
+    <!-- Link to Google Fonts for typography -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    >
+
+    <!-- Link to Font Awesome for social media icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    >
+
+  </head>
+
+  <body>
+
+    <div class="container">
+         <!-- Header Section for the Food Blog -->
+      <header>
+        <!-- Navigation Bar -->
+        <nav>
+          <!-- Navigation Links -->
+          <div class="nav-links">
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="blog.html">BLOG</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+            </ul>
+          </div>
+
+          <!-- Social Media Icons -->
+          <div class="nav-social-icons">
+            <a href="https://facebook.com" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </nav>
+
+        <!-- Header Image Section with Title -->
+        <div class="header-image-section">
+          <img src="Images/coco.jpg" alt="Food Blog Image">
+          <!-- Title of the Image -->
+          <div class="nav-image-title">
+            <h2>COCOA POWDER</h2>
+          </div>
+        </div>
+          <!-- Search Form to Search for Articles -->
+          <form id="search-form" action="#" method="get">
+            <input
+              type="text"
+              id="search"
+              name="search"
+              placeholder="Search..."
+            >
+            <button type="submit">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+      </header>
+
+      <!-- Food Blog Title -->
+      <h2 class="food-blog-title">FOOD BLOG</h2>
+
+      <!-- List of Blog Articles -->
+      <div class="articles">
+         <!-- Article 1: Koko & Koose -->
+        <a href="koko.html">
+        <div class="article-card">
+          <img
+            src="Images/koks.jpg"
+            alt="Koko and Koose - Ghanaian breakfast"
+          >
+          <article>
+            <!-- User Information (Admin and Date) -->
+            <div class="user-info">
+              <div class="avatar">
+                <i class="fas fa-user"></i>
+                <!-- Font Awesome User Icon -->
+              </div>
+              <div class="text-info">
+                <span>Admin</span>
+                <span>February 13, 2025</span>
+              </div>
+            </div>
+
+            <!-- Article Title -->
+            <h2 class="article-title">Koko & Koose</h2>
+
+              <!-- Article Summary -->
+            <p class="article-content">
+              Kooko and Koose are a classic Ghanaian breakfast pairing, loved
+              for their rich taste and nutrition. Kooko, a smooth and slightly
+              tangy porridge made from fermented corn or millet, is served warm.
+              Koose, crispy black-eyed pea fritters, adds a savory and spicy
+              contrast to the porridge.
+            </p>
+             <!-- Article Footer with View and Like Stats -->
+            <div class="article-footer">
+              <div class="article-divider"></div> 
+              <div class="article-stats">
+                <span class="views">0 views</span>
+                <span class="likes"
+                  >16 <i class="fa-regular fa-heart"></i
+                ></span>
+              </div>
+            </div>
+          </article>
+       
+        </div>
+      </a>
+
+        <!-- Article 2 - Waakye -->
+        <a href="waakye.html">
+        <div class="article-card">
+          <img
+            src="Images/wak4.jpeg"
+            alt="Waakye with sides - Ghanaian rice and beans dish"
+          >
+          <article>
+            <!-- User Info (Admin Name and Date) -->
+            <div class="user-info">
+              <div class="avatar">
+                <i class="fas fa-user"></i>
+                <!-- Font Awesome User Icon -->
+              </div>
+              <div class="text-info">
+                <span>Admin</span>
+                <span>February 13, 2025</span>
+              </div>
+            </div>
+             <!-- Article Title -->
+            <h2 class="article-title">Waakye</h2>
+             <!-- Article summary  -->
+            <p class="article-content">
+              Waakye is a Ghanaian rice and beans dish cooked with dried millet
+              leaves, giving it a distinct color and flavor. It's commonly
+              served with fried plantains, spaghetti, boiled eggs, and a choice
+              of protein. Spicy shito and gari add extra texture and heat. This
+              flavorful meal is a staple in Ghanaian cuisine.
+            </p>
+            <!-- Article Footer (Views, Likes, Divider) -->
+            <div class="article-footer">
+              <div class="article-divider"></div> 
+              <div class="article-stats">
+                <span class="views">0 views</span>
+                <span class="likes"
+                  >16 <i class="fa-regular fa-heart"></i
+                ></span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </a>
+
+
+      <!-- Article 3 - Banku & Tilapia -->
+      <a href="banku.html">
+        <div class="article-card">
+          <img
+            src="Images/banks1.jpeg"
+            alt="Banku with grilled tilapia and pepper sauce"
+          >
+          <article>
+            <!-- User Info (Admin Name and Date) -->
+            <div class="user-info">
+              <div class="avatar">
+                <i class="fas fa-user"></i>
+                <!-- Font Awesome User Icon -->
+              </div>
+              <div class="text-info">
+                <span>Admin</span>
+                <span>February 13, 2025</span>
+              </div>
+            </div>
+              <!-- Article Title -->
+            <h2 class="article-title">Banku & Tilapia</h2>
+              <!-- Article summary -->
+            <p class="article-content">
+              Banku is a traditional Ghanaian dish made from fermented corn and
+              cassava dough, cooked into a smooth, stretchy paste. It's often
+              served with grilled tilapia, accompanied by a spicy pepper sauce,
+              and sometimes a side of fried fish. This flavorful combination is
+              a popular meal in coastal regions of Ghana.
+            </p>
+            <!-- Article Footer (Views, Likes, Divider) -->
+            <div class="article-footer">
+              <div class="article-divider"></div> 
+              <div class="article-stats">
+                <span class="views">0 views</span>
+                <span class="likes"
+                  >16 <i class="fa-regular fa-heart"></i
+                ></span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </a>
+       <!-- Article 4 - Jollof Rice -->
+      <a href="jollof.html">
+        <div class="article-card">
+          <img
+            src="Images/jof.jpg"
+            alt="Jollof rice served with grilled chicken"
+          >
+          <article>
+             <!-- User Info (Admin Name and Date) -->
+            <div class="user-info">
+              <div class="avatar">
+                <i class="fas fa-user"></i>
+                <!-- Font Awesome User Icon -->
+              </div>
+              <div class="text-info">
+                <span>Admin</span>
+                <span>February 13, 2025</span>
+              </div>
+            </div>
+              <!-- Article Title -->
+            <h2 class="article-title">Jollof Rice</h2>
+                <!-- Article summary -->
+            <p class="article-content">
+              Jollof rice is a beloved West African dish made with rice cooked
+              in a flavorful tomato sauce, often spiced with onions, garlic, and
+              bell peppers. It's commonly served with grilled or fried chicken,
+              beef, or fish. Known for its rich taste and vibrant color, Jollof
+              rice is a staple at celebrations and gatherings in Ghana and
+              beyond.
+            </p>
+             <!-- Article Footer (Views, Likes, Divider) -->
+            <div class="article-footer">
+              <div class="article-divider"></div> 
+              <div class="article-stats">
+                <span class="views">0 views</span>
+                <span class="likes"
+                  >16 <i class="fa-regular fa-heart"></i
+                ></span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </a>
+
+  <!-- Article 5 - Ampesi -->
+       <a href="ampesi.html">
+        <div class="article-card">
+          <img
+            src="Images/amp3.jpg"
+            alt="Ampesi with plantain, yam, and stew"
+          >
+          <article>
+              <!-- User Info (Admin Name and Date) -->
+            <div class="user-info">
+              <div class="avatar">
+                <i class="fas fa-user"></i>
+                <!-- Font Awesome User Icon -->
+              </div>
+
+              <div class="text-info">
+                <span>Admin</span>
+                <span>February 13, 2025</span>
+              </div>
+            </div>
+              <!-- Article Title -->
+            <h2 class="article-title">Ampesi</h2>
+              <!-- Article Content (Short Description) -->
+            <p class="article-content">
+              Ampesi is a traditional Ghanaian dish consisting of boiled yam,
+              plantain, or cassava, typically served with a variety of rich and
+              flavorful soups or stews. It’s commonly paired with groundnut soup
+              (peanut soup), palm nut soup, or light soup.
+            </p>
+             <!-- Article Footer (Views, Likes, Divider) -->
+            <div class="article-footer">
+              <div class="article-divider"></div> 
+              <div class="article-stats">
+                <span class="views">0 views</span>
+                <span class="likes"
+                  >16 <i class="fa-regular fa-heart"></i
+                ></span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </a>
+      <!-- Button to View All Posts -->
+      <button class="all-post" onclick="window.location.href='blog.html'">
+        All Posts
+      </button>
+
+       <!-- Extra Section (About Me and Cookbook) -->
+      <section id="home-extra">
+        <div class="left">
+          <img src="Images/profilepic.jpg" alt="Blog Writer Picture">
+          <div>
+            <h2>Made by Samuel<br>with love</h2>
+            <div class="rectangle"></div>
+            <a href="about.html" class="about-link">About Me</a>
+          </div>
+        </div>
+
+        <div class="right">
+          <img src="Images/cookbook.jpg" alt="Another Blog Picture">
+          <div>
+            <h2>My CookBook</h2>
+            <div class="rectangle"></div>
+
+            <p>Cookbook Available at:</p>
+              <ul class="bookshops">
+               <li>Broadway Books</li>
+               <li>Hungary Reads</li>
+               <li>Gracy's Bookshop</li>
+              </ul>
+           
+          </div>
+        </div>
+      </section>
+      
+        <!-- Subscription Section -->
+      <section id="subscribe">
+        <div class="subscribe-content">
+          <!-- Subscribe Title -->
+          <div class="subscription-header">
+            <h2>Subscribe via Email</h2>
+            <div class="rectangle"></div>
+
+            <!-- Social Media Icons (Horizontal) -->
+            <div class="media-icons">
+              <a href="https://facebook.com" target="_blank">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a href="https://twitter.com" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://instagram.com" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Email Input and Checkbox -->
+          <form action="#" method="post">
+            <p>Enter your email here *</p>
+            <input class="field" type="email" name="email">
+            <div>
+              <label>
+                <input type="checkbox" name="subscribe-newsletter">
+                Yes, subscribe me to your newsletter
+              </label>
+            </div>
+
+            <!-- Subscribe Button -->
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Footer Section -->
+      <footer>
+        <p>&copy; 2025 Ghanaian Food Blog. All rights reserved.</p>
+      </footer>
+
+      <!-- Additional content for your pages can go here -->
+    </div>
+  </body>
+</html>

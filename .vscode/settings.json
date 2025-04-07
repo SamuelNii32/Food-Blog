@@ -1,0 +1,13 @@
+{
+    "workbench.colorTheme": "One Monokai",
+    "workbench.iconTheme": "material-icon-theme",
+    "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": true,
+    "eslint.run": "onSave",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "git.autofetch": true,
+    "debug.disassemblyView.showSourceCode": false,
+    "prettier.bracketSameLine": true,
+    "prettier.enable": true
+  }
+  

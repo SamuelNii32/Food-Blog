@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Food Blog</title>
+
+    <!-- Link to External CSS File (if you have one) -->
+    <link rel="stylesheet" href="Css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <!-- Add other meta tags, favicon, etc. -->
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <!-- Navigation Section -->
+        <nav>
+          <!-- Navigation Links -->
+          <div class="nav-links">
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="blog.html">BLOG</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+            </ul>
+          </div>
+
+          <!-- Social Media Icons -->
+          <div class="nav-social-icons">
+            <a href="https://facebook.com" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </nav>
+
+        <!-- Image Section with Title-->
+        <div class="header-image-section">
+          <img src="Images/coco.jpg" alt="Food Blog Image" />
+          <!-- Title of the Image -->
+          <div class="nav-image-title">
+            <h2>COCOA POWDER</h2>
+          </div>
+        </div>
+        <!-- Search Form -->
+        <form id="search-form" action="#" method="get">
+          <input
+            type="text"
+            id="search"
+            name="search"
+            placeholder="Search..." />
+          <button type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </header>
+
+      <main class="single-article-container">
+        <!-- Article Section -->
+        <article class="single-article-card">
+          <div class="single-text-info">
+            <div class="single-avatar">
+              <i class="fas fa-user"></i>
+              <!-- Font Awesome User Icon -->
+            </div>
+            <span>Admin</span>
+            <span>February 13, 2025</span>
+          </div>
+
+          <h1 class="single-article-heading">Delicious Koko and Koose</h1>
+
+          <img src="Images/koks.jpg" alt="koko" class="single-article-image" />
+
+          <div class="single-article-content">
+            <h2>Introduction to Koko and Koose</h2>
+            <p>
+              Koko and koose is a traditional Ghanaian breakfast dish that
+              offers a warm, hearty, and satisfying start to the day. Koko is a
+              millet or corn-based porridge, often enjoyed for its smooth,
+              comforting texture and mildly sweet flavor. It is typically served
+              with koose, which are deep-fried bean cakes made from ground
+              black-eyed peas or soybeans. This combination of koko and koose is
+              a favorite for many Ghanaians, providing both nourishment and
+              energy to begin the day. Koko and koose can be enjoyed at home or
+              from street vendors, making it a popular breakfast option across
+              the country.
+            </p>
+
+            <h2>Popular Accompaniments to Koko and Koose</h2>
+            <p>
+              Koko and koose are often paired with a variety of accompaniments
+              to enhance their flavor. Some people enjoy adding sugar or milk to
+              their koko for extra sweetness, while others prefer a more savory
+              version, incorporating groundnut (peanut) paste or a sprinkle of
+              salt. The crispy koose is traditionally enjoyed by dipping it into
+              the koko, offering a delightful contrast in texture. In some
+              regions, koko and koose may also be served with a side of boiled
+              eggs or a portion of fried fish, making it a more filling and
+              balanced meal.
+            </p>
+            <h2>How to Prepare Koko and Koose</h2>
+            <p>
+              To prepare koko, begin by cooking millet or corn flour in water,
+              stirring constantly to prevent lumps. The mixture is then simmered
+              until it thickens and achieves a smooth consistency. For the
+              koose, soak black-eyed peas overnight, then blend or grind them
+              into a smooth paste. Mix the paste with seasonings like onions,
+              pepper, and salt, and then fry spoonfuls of the mixture in hot oil
+              until golden brown and crispy. Serve the koko in a bowl, and add
+              the koose on the side or in the bowl for dipping. This combination
+              of creamy porridge and crispy bean cakes is a delicious and
+              filling meal that can be enjoyed any time of the day, though it’s
+              most often eaten for breakfast.
+            </p>
+          </div>
+
+          <div class="article-line"></div>
+          <div class="single-article-share">
+            <div class="single-social-icons">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <span class="single-share-text">Quick & Easy</span>
+          </div>
+          <div class="article-line"></div>
+
+          <div class="main-article-stats">
+            <span class="single-views">0 views</span>
+            <span class="single-likes"
+              >16 <i class="fa-regular fa-heart"></i
+            ></span>
+          </div>
+        </article>
+
+        <div class="single-comment-card">
+          <h2>Comments</h2>
+          <div class="line"></div>
+          <form action="#" method="post" class="comment-box">
+            <!-- Input field -->
+
+            <!-- Left Icons -->
+            <span class="comment-icons">
+              <i class="fa-regular fa-face-smile"></i>
+              <i class="fa-solid fa-camera"></i>
+              <i class="fa-solid fa-gift"></i>
+              <i class="fa-solid fa-video"></i>
+            </span>
+
+            <!-- Right Buttons -->
+            <div class="comment-buttons">
+              <button type="reset" class="btn cancel">Cancel</button>
+              <button type="submit" class="btn post">Publish</button>
+            </div>
+          </form>
+        </div>
+      </main>
+
+      <section class="single-recent-posts">
+        <h2>Recent Posts</h2>
+
+        <a href="jollof.html">
+          <div class="single-post-card">
+            <img src="Images/jof.jpg" alt="Banku and Tilapia" />
+            <h3>Ghanaian Jollof</h3>
+            <hr />
+            <div class="single-article-stats">
+              <span class="single-views">0 views</span>
+              <span class="single-likes"
+                >16 <i class="fa-regular fa-heart"></i
+              ></span>
+            </div>
+          </div>
+        </a>
+
+        <a href="banku.html">
+          <div class="single-post-card">
+            <img src="Images/banks1.jpeg" alt="Waakye" />
+            <h3>Banku and Tilapia</h3>
+            <hr />
+            <div class="single-article-stats">
+              <span class="single-views">0 views</span>
+              <span class="single-likes"
+                >16 <i class="fa-regular fa-heart"></i
+              ></span>
+            </div>
+          </div>
+        </a>
+      </section>
+
+      <section id="subscribe">
+        <div class="subscribe-content">
+          <!-- Subscribe Title -->
+          <div class="subscription-header">
+            <h2>Subscribe via Email</h2>
+            <div class="rectangle"></div>
+
+            <!-- Social Media Icons (Horizontal) -->
+            <div class="media-icons">
+              <a href="https://facebook.com" target="_blank">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a href="https://twitter.com" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://instagram.com" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Email Input and Checkbox -->
+          <form action="#" method="post">
+            <p>Enter your email here *</p>
+            <input class="field" type="email" name="email" />
+            <div>
+              <label>
+                <input type="checkbox" name="subscribe-newsletter" />
+                Yes, subscribe me to your newsletter
+              </label>
+            </div>
+
+            <!-- Subscribe Button -->
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Footer Section -->
+      <footer>
+        <p>&copy; 2025 Ghanaian Food Blog. All rights reserved.</p>
+      </footer>
+
+      <!-- Additional content for your pages can go here -->
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1048 @@
+
+/* Universal Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+/* Body Styling */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px; 
+  line-height: 1.5;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  min-height: 100vh; 
+  margin-top: 100px;
+  padding: 0 20px; 
+}
+
+
+/* Anchor Tag Styling */
+a {
+  all: unset; 
+  cursor: pointer; 
+}
+
+/* Container Styling */
+.container {
+  position: relative; 
+}
+
+
+/* Header, Section, and Footer */
+header,
+section,
+footer {
+  width: 100%; 
+  box-sizing: border-box; 
+}
+
+
+/* Header Image Styling */
+header img {
+  width: 940px;
+  height: 333px; 
+  display: block;
+  object-fit: cover;
+  filter: brightness(70%); 
+}
+
+
+/* Navigation Bar */
+nav {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding-right: 10px;
+  margin-bottom: 20px; 
+  width: 100%; 
+}
+
+/* Navigation Links */
+.nav-links ul {
+  list-style: none; 
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+
+.nav-links ul li {
+  margin-right: 15px;
+  padding: 0 5px; 
+}
+
+.nav-links ul li a {
+  text-decoration: none; 
+  color: black; 
+  font-size: 16px; 
+}
+
+/* nav Social Media Icons */
+.nav-social-icons {
+  display: flex; 
+  gap: 20px; 
+}
+
+.nav-social-icons a {
+  font-size: 17px; 
+  color: black; 
+}
+
+.nav-social-icons a:first-child {
+  margin-left: 0;
+}
+
+/* Navigation Image Title */
+.nav-image-title {
+  position: absolute; 
+  top: -20px; 
+  left: 50%;
+  transform: translateX(-50%);
+  width: 404px; 
+  height: 77px; 
+  padding: 20px; 
+  border: 5px solid black; 
+  text-align: center; 
+  z-index: 1;
+  background-color: white; 
+  overflow: hidden; 
+}
+
+
+.nav-image-title h2 {
+  /* Text color */
+  font-size: 33px; 
+  width: 100%; 
+  height: 100%; 
+  font-family: "Open Sans", sans-serif;
+  margin: 0; 
+  padding: 0; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+/* Search Form Styling */
+#search-form {
+  position: absolute;
+  top: 350px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1px solid black;
+  padding: 3px;
+  width: 518px; 
+}
+
+#search-form input {
+  flex: 1; 
+  padding: 3px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+/* Search Button */
+#search-form button {
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  padding: 3px;
+  width: 40px; 
+  height: 40px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+
+/* Search Icon */
+#search-form i {
+  color: white; 
+  font-size: 18px; 
+}
+
+/* Hover Effect for Search Form */
+#search-form:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid black; 
+}
+
+/* Food Blog Title */
+.food-blog-title {
+  font-size: 22px; 
+  text-align: center;
+  margin-top: 50px; 
+  margin-bottom: 30px;
+  font-weight: bold; 
+}
+
+/* Articles Container */
+.articles {
+  display: flex; 
+  flex-direction: column; 
+  gap: 20px; 
+}
+
+/* Article Card */
+.article-card {
+  display: flex;
+  align-items: center;
+  width: 940px; 
+  height: 348px; 
+  max-width: 1000px; 
+  background-color: #fff;
+  border: 0.5px solid #807e7e;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+
+/* Article Card Image */
+.article-card img {
+  width: 40%; 
+  height: 100%; 
+  object-fit: cover;
+}
+
+
+/* Article Content */
+.article-card article {
+  width: 60%; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100%;
+  padding: 30px 36px;
+  position: relative;
+}
+
+
+/* Article Title */
+ .article-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: black;
+}
+
+
+/* Article Content Text */
+.article-content{
+  font-size: 1rem;
+  color: black;
+  line-height: 1.5;
+}
+
+/* User Info for Articles */
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; 
+  background-color: #ccc; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.avatar i {
+  font-size: 16px; 
+  color: white; 
+}
+
+.text-info span {
+  font-size: 12px;
+
+  display: block;
+}
+
+.article-footer {
+  margin-top: auto; 
+}
+
+.article-divider {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin-bottom: 10px; 
+}
+
+.article-stats {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #666;
+}
+
+.article-stats .likes i {
+  color: red; 
+  margin-left: 5px; 
+}
+
+.all-post {
+  background-color: black; 
+  color: white; 
+  width: 221px; 
+  height: 49px;
+  border: none; 
+  font-size: 16px;
+  text-align: center; 
+  cursor: pointer; 
+  margin: 65px auto; 
+  display: block;
+}
+
+.all-post:hover {
+  background-color: #333; 
+}
+
+#home-extra {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+#home-extra .about-link {
+  color: black;
+  text-decoration: underline; 
+  cursor: pointer; 
+}
+
+.left,
+.right {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px; 
+}
+
+.left img,
+.right img {
+  width: 221px;
+  height: 250px;
+  object-fit: cover;
+  filter: brightness(70%);
+}
+
+.left h2,
+.right h2 {
+  margin: 0;
+  margin-bottom: 50px;
+}
+.bookshops {
+  list-style-type: none;
+}
+
+.rectangle {
+  width: 28px; 
+  height: 5px; 
+  background-color: #333; 
+  margin: 30px 0; 
+}
+
+#subscribe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px; 
+}
+.subscribe-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#subscribe .field,
+#subscribe button {
+  width: 543px;
+  height: 42px;
+  font-size: 16px;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+#subscribe input {
+  padding: 0 10px;
+}
+
+#subscribe button {
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#subscribe button:hover {
+  background-color: white; 
+  color: black; 
+  border: 5px solid black; 
+}
+#subscribe label {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  width: 543px; 
+}
+
+#subscribe input[type="checkbox"] {
+  width: 20px; 
+  height: 20px; 
+  cursor: pointer; 
+  margin-right: 10px; 
+}
+
+.field:hover {
+  border: 2px solid black; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.media-icons {
+  display: flex;
+  gap: 15px; 
+}
+
+.media-icons a {
+  font-size: 17px; 
+  color: #333; 
+  transition: color 0.3s ease, transform 0.3s ease; 
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+
+/* Blog Layout */
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px;
+  margin-top: 30px;
+}
+
+/* Blog Card */
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  width: 453px;
+  min-height: 623px; /* Allow card to expand if needed */
+  border: 0.5px solid #807e7e;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: white;
+  overflow: hidden;
+}
+
+/* Blog Image */
+.blog-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+/* Blog Article */
+.blog-card article {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* Makes sure the article expands */
+  padding: 20px;
+}
+
+.blog-card p{
+  line-height: 1.8;
+  font-size: 15px;
+}
+.blog-card p, h2{
+  cursor:pointer;
+}
+
+.blog-card p:hover, 
+.blog-card h2:hover {
+  color: #8d683b; /* Example color change on hover */
+}
+
+/* User Info */
+.blog-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.blog-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.blog-avatar i {
+  font-size: 16px;
+  color: white;
+}
+
+.blog-text-info span {
+  font-size: 12px;
+  display: block;
+  color: #333;
+}
+
+
+/* Blog Footer */
+.blog-footer {
+  margin-top: auto;
+}
+
+.blog-divider {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.blog-stats {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #666;
+}
+
+.blog-stats .blog-likes i {
+  color: red;
+  margin-left: 5px;
+}
+
+/* About Me & Contact Me Section */
+#about-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+/* About Me Section */
+#about-contact .about {
+  flex: 1;
+}
+
+#about-contact .about h2 {
+  margin-bottom: 1rem;
+}
+
+#about-contact .about-content {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+#about-contact .about-content img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#about-contact .about-text {
+  max-width: 300px;
+}
+
+#about-contact .about-text h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#about-contact .about-text p:last-child {
+  color: #777;
+  font-size: 1rem;
+}
+
+/* Contact Me Section */
+#about-contact .contact {
+  flex: 1;
+}
+
+#about-contact .contact h2 {
+  margin-bottom: 1rem;
+}
+
+#about-contact .contact-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+/* Contact Info */
+#about-contact .contact-info {
+  flex: 1;
+}
+
+#about-contact .contact-info p {
+  margin: 5px 0;
+}
+
+#about-contact .contact-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+#about-contact .contact-icons a {
+  color: #333;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
+
+/* Contact Form */
+#about-contact form {
+  flex: 1;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#about-contact .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+#about-contact h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#about-contact input,
+#about-contact textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+#about-contact input:hover,
+#about-contact textarea:hover {
+  border: 1px solid black; 
+}
+
+
+#about-contact textarea {
+  resize: none;
+}
+
+#about-contact button {
+  background-color:black;
+  color: white;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#about-contact button:hover {
+  background-color: white; 
+  color: black; 
+  border: 5px solid black; 
+}
+
+/* Single Article Container */
+.single-article-container {
+  width: 100%; /* Matches the navbar width */
+  margin: 70px auto; 
+  padding: 30px;
+  border: 1px solid #ccc; /* Visible container */
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+/* Admin Info */
+.single-text-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding-left: 65px; 
+}
+
+/* Avatar */
+.single-avatar {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; /* Circular shape */
+  background-color: #d3d3d3; /* Ash color */
+  font-size: 18px;
+  color: white;
+  
+}
+
+/* Admin Name & Date */
+.single-text-info span {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Title of Article */
+.single-article-heading {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-left: 65px;
+  /* Adds space before the image */
+}
+
+/* Article Image */
+.single-article-image {
+  width: 740px;
+  height: 493px;
+  object-fit: cover;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Headings for Paragraphs */
+.single-article-content h2 {
+  font-size: 24px;
+  font-weight: bold;  
+  margin-top: 30px; 
+  margin-bottom: 10px; 
+  color: #333;
+  padding-left: 65px; 
+}
+
+/* Paragraphs */
+.single-article-content p {
+  text-align: justify;
+  margin-bottom: 20px;
+  padding-left: 65px;
+  max-width: 800px;
+  font-size: 18px;
+}
+
+.single-article-share {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  width: 100%; 
+  max-width: 740px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+.single-social-icons {
+  display: flex; 
+  gap: 15px; 
+}
+
+.single-social-icons a {
+  font-size: 18px;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.single-share-text {
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+}
+
+.single-article-content p:last-child {
+  margin-bottom: 50px; 
+}
+
+.article-line{
+  border-top: 1px solid #ccc; 
+  margin: 10px 0;
+  width: 100%; 
+  max-width: 740px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+
+
+.main-article-stats {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  margin: 20px 0; 
+  padding-left: 65px;
+  padding-right: 65px;
+
+}
+
+
+.single-views {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Style for likes */
+.single-likes {
+  font-size: 14px;
+  color: #555; 
+}
+
+/* Heart icon style */
+.single-likes i {
+  color: red; 
+  margin-left: 5px; 
+}
+
+
+.single-recent-posts {
+  display: flex;  
+  flex-wrap: wrap;  
+  gap: 40px; 
+  padding: 30px 0;
+}
+
+
+.single-recent-posts h2 {
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 5px; 
+  width: 100%; 
+}
+
+
+.single-recent-posts .single-post-card {
+  width: 290px;
+  height: 312px;
+  display: flex;
+  flex-direction: column; 
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  
+}
+
+
+.single-recent-posts .single-post-card img {
+  width: 100%;  
+  height: 50%; 
+  object-fit: cover;
+  display: block;
+  margin-bottom: 25px;
+}
+
+
+.single-recent-posts .single-post-card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-left: 25px;
+  margin-bottom: 15px;
+}
+
+.single-recent-posts .single-post-card h3:hover {
+  color: #8d683b; 
+  cursor:pointer;
+}
+
+
+.single-recent-posts .single-post-card hr {
+  margin: 5px 0;
+  border-top: 1px solid #ccc;
+  width: calc(100% - 30px); 
+
+  padding: 0;
+  margin-left: 15px; 
+  margin-right: 15px; 
+}
+
+
+.single-recent-posts .single-article-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.single-recent-posts .single-article-stats span {
+  font-size: 14px;
+  color: #555;
+}
+
+.single-recent-posts .single-article-stats .fa-heart {
+  color: red;
+}
+
+/* Comment Section Container */
+.single-comment-card {
+  width: 100%;
+  height: 210px; /* Default height */
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin: 0 auto; /* Centering */
+  transition: height 0.3s ease;
+}
+
+/* Title of the Comment Section */
+.single-comment-card h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* Horizontal line */
+.single-comment-card .line{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 90px;
+  margin-right: 100px;
+  border-top: 1px solid #ccc;
+  width: 80%;
+}
+
+/* Comment Input Container */
+.comment-box {
+  position: relative;
+  width: 80%;
+  margin-left: 90px;
+  margin-right: 100px;
+  margin-top: 15px;
+}
+
+/* Input Field */
+.single-comment-input {
+  width: 100%;
+  padding: 15px 50px; /* Adjusted for icons */
+  border: 1px solid #ccc;
+  font-size: 16px;
+  height: 50px;
+  box-sizing: border-box;
+  transition: height 0.3s ease, border 0.3s ease;
+  cursor: pointer;
+}
+
+/* Input Field Hover Effect */
+.single-comment-input:hover {
+  border: 2px solid black;
+}
+
+/* Input Field Focus Effect */
+.single-comment-input:focus {
+  height: 100px; /* Expand when focused */
+  border: 2px solid black;
+}
+
+/* Icons inside the Input Field */
+.comment-icons {
+  position: absolute;
+  left: 15px;
+  bottom: 15px; /* Added space from the bottom */
+  transform: translateY(50%);
+  display: flex;
+  gap: 12px;
+  visibility: hidden; /* Hidden by default */
+}
+
+/* Show Icons when Input is Focused */
+.single-comment-input:focus ~ .comment-icons {
+  visibility: visible;
+}
+
+/* Icons styling */
+.comment-icons i {
+  font-size: 18px;
+  cursor: pointer;
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+/* Icon Hover Effect */
+.comment-icons i:hover {
+  color: black;
+}
+
+/* Buttons outside the Input Field (at the bottom right of the container) */
+.comment-buttons {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  right: 10px;
+  bottom: -60px;
+  visibility: hidden; /* Hidden by default */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Show Buttons when Input is Focused */
+.single-comment-input:focus ~ .comment-buttons {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Style for Buttons */
+.comment-buttons button {
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: #8d683b;
+  transition: background-color 0.3s;
+  color: white;
+}
+
+.comment-buttons .cancel{
+  color: #8d683b;
+  background-color: white;
+  outline: none;
+  border: none;
+
+}
+
+/* Button Hover Effect */
+.comment-buttons button:hover {
+  text-decoration: underline;
+}
+
+/* Expand Comment Section when Input is Focused */
+.single-comment-card:focus-within {
+  height: 350px; /* Increased height when the input is focused */
+}
+
+/* Reset to Original Height When Cancel is Clicked */
+.comment-buttons .cancel:active {
+  visibility: hidden;
+  opacity: 0;
+}
+
+/* Cancel Button Visibility */
+.comment-buttons .cancel {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}

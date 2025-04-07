@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Food Blog</title>
+
+    <!-- Link to External CSS File (if you have one) -->
+    <link rel="stylesheet" href="Css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <!-- Add other meta tags, favicon, etc. -->
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <!-- Navigation Section -->
+        <nav>
+          <!-- Navigation Links -->
+          <div class="nav-links">
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="blog.html">BLOG</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+            </ul>
+          </div>
+
+          <!-- Social Media Icons -->
+          <div class="nav-social-icons">
+            <a href="https://facebook.com" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </nav>
+
+        <!-- Image Section with Title-->
+        <div class="header-image-section">
+          <img src="Images/coco.jpg" alt="Food Blog Image" />
+          <!-- Title of the Image -->
+          <div class="nav-image-title">
+            <h2>COCOA POWDER</h2>
+          </div>
+        </div>
+        <!-- Search Form -->
+        <form id="search-form" action="#" method="get">
+          <input
+            type="text"
+            id="search"
+            name="search"
+            placeholder="Search..." />
+          <button type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </header>
+
+      <main class="single-article-container">
+        <!-- Article Section -->
+        <article class="single-article-card">
+          <div class="single-text-info">
+            <div class="single-avatar">
+              <i class="fas fa-user"></i>
+              <!-- Font Awesome User Icon -->
+            </div>
+            <span>Admin</span>
+            <span>February 13, 2025</span>
+          </div>
+
+          <h1 class="single-article-heading">Delicious Ghanaian Jollof</h1>
+
+          <img src="Images/jof.jpg" alt="Banku" class="single-article-image" />
+
+          <div class="single-article-content">
+            <h2>Introduction to Ghanaian Jollof</h2>
+
+            <p>
+              Ghanaian Jollof rice is a flavorful and aromatic one-pot dish made
+              with rice, tomatoes, onions, and a blend of spices. It is a staple
+              in many West African countries, but the Ghanaian version is
+              especially beloved for its rich, savory taste. The dish is known
+              for its bright red color, which comes from the use of tomatoes and
+              pepper, and its distinctive smoky flavor, often achieved through a
+              method of slow-cooking the rice. Jollof rice is commonly served
+              during celebrations, parties, and special occasions, making it a
+              dish of cultural importance in Ghana.
+            </p>
+
+            <h2>Popular Accompaniments to Ghanaian Jollof</h2>
+            <p>
+              Ghanaian Jollof is often served with a variety of accompaniments,
+              which can include grilled or fried chicken, beef, or fish. Fried
+              plantains (kelewele) are a favorite side, adding a touch of
+              sweetness and texture to the dish. Additionally, a side of fresh
+              salad or boiled eggs may also be included, offering a refreshing
+              balance to the richness of the Jollof rice. The versatility of
+              Ghanaian Jollof allows it to be paired with various meats and
+              sides, making it a popular choice for large gatherings and festive
+              events.
+            </p>
+
+            <h2>How to Prepare Ghanaian Jollof</h2>
+            <p>
+              To prepare Ghanaian Jollof, start by blending tomatoes, onions,
+              and peppers to create a smooth base for the sauce. In a large pot,
+              heat oil and fry chopped onions until golden brown. Add the
+              blended tomato mixture to the pot, along with seasoning like
+              thyme, curry powder, and bay leaves, and cook until the sauce
+              reduces and becomes thick. Add washed rice to the sauce, stir
+              well, and then add water or broth to cook the rice. Allow the rice
+              to simmer on low heat until it’s fully cooked and the flavors are
+              well-infused. Serve the Jollof rice with your choice of grilled
+              meats, fried plantains, and a side of vegetables for an authentic
+              and satisfying Ghanaian meal.
+            </p>
+          </div>
+
+          <div class="article-line"></div>
+          <div class="single-article-share">
+            <div class="single-social-icons">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <span class="single-share-text">Quick & Easy</span>
+          </div>
+          <div class="article-line"></div>
+
+          <div class="main-article-stats">
+            <span class="single-views">0 views</span>
+            <span class="single-likes"
+              >16 <i class="fa-regular fa-heart"></i
+            ></span>
+          </div>
+        </article>
+
+        <!-- Recent Posts Section -->
+
+        <div class="single-comment-card">
+          <h2>Comments</h2>
+          <div class="line"></div>
+          <form action="#" method="post" class="comment-box">
+            <!-- Input field -->
+            <textarea
+              placeholder="Write a comment..."
+              class="single-comment-input"></textarea>
+
+            <!-- Left Icons -->
+            <span class="comment-icons">
+              <i class="fa-regular fa-face-smile"></i>
+              <i class="fa-solid fa-camera"></i>
+              <i class="fa-solid fa-gift"></i>
+              <i class="fa-solid fa-video"></i>
+            </span>
+
+            <!-- Right Buttons -->
+            <div class="comment-buttons">
+              <button type="reset" class="btn cancel">Cancel</button>
+              <button type="submit" class="btn post">Publish</button>
+            </div>
+          </form>
+        </div>
+      </main>
+
+      <section class="single-recent-posts">
+        <h2>Recent Posts</h2>
+
+        <a href="koko.html">
+          <div class="single-post-card">
+            <img src="Images/koks.jpg" alt="Banku and Tilapia" />
+            <h3>Koko and Koose</h3>
+            <hr />
+            <div class="single-article-stats">
+              <span class="single-views">0 views</span>
+              <span class="single-likes"
+                >16 <i class="fa-regular fa-heart"></i
+              ></span>
+            </div>
+          </div>
+        </a>
+
+        <a href="waakye.html">
+          <div class="single-post-card">
+            <img src="Images/wak4.jpeg" alt="Waakye" />
+            <h3>Waakye</h3>
+            <hr />
+
+            <div class="single-article-stats">
+              <span class="single-views">0 views</span>
+              <span class="single-likes"
+                >16 <i class="fa-regular fa-heart"></i
+              ></span>
+            </div>
+          </div>
+        </a>
+      </section>
+
+      <section id="subscribe">
+        <div class="subscribe-content">
+          <!-- Subscribe Title -->
+          <div class="subscription-header">
+            <h2>Subscribe via Email</h2>
+            <div class="rectangle"></div>
+
+            <!-- Social Media Icons (Horizontal) -->
+            <div class="media-icons">
+              <a href="https://facebook.com" target="_blank">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a href="https://twitter.com" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://instagram.com" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Email Input and Checkbox -->
+          <form action="#" method="post">
+            <p>Enter your email here *</p>
+            <input class="field" type="email" name="email" />
+            <div>
+              <label>
+                <input type="checkbox" name="subscribe-newsletter" />
+                Yes, subscribe me to your newsletter
+              </label>
+            </div>
+
+            <!-- Subscribe Button -->
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Footer Section -->
+      <footer>
+        <p>&copy; 2025 Ghanaian Food Blog. All rights reserved.</p>
+      </footer>
+
+      <!-- Additional content for your pages can go here -->
+    </div>
+  </body>
+</html>
